@@ -2093,7 +2093,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffaf0b;
+  background: #b64553;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3199,4 +3199,7 @@ ul.breadcrumb li+li:last-child {
 }
 #QR p {
   text-align: center;
+}
+h1 {
+  font-size: 26px;
 }

@@ -613,14 +613,14 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2016/IntelliJ-Idea-常用插件/" rel="bookmark">IntelliJ Idea 常用插件</a></div>
+      <div class="popular-posts-title"><a href="/2016/Git操作/" rel="bookmark">Git操作</a></div>
       
     </li>
   
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2016/Git操作/" rel="bookmark">Git操作</a></div>
+      <div class="popular-posts-title"><a href="/2016/IntelliJ-Idea-常用插件/" rel="bookmark">IntelliJ Idea 常用插件</a></div>
       
     </li>
   
@@ -641,7 +641,7 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2016/MyBatis-Plugin-学习使用/" rel="bookmark">MyBatis Plugin 学习使用</a></div>
+      <div class="popular-posts-title"><a href="/2017/Mac开发环境搭建-v1/" rel="bookmark">Mac开发环境搭建-v1</a></div>
       
     </li>
   
@@ -1625,11 +1625,11 @@
             counter.fetchWhenSave(true);
             counter.increment("time");
             
-              var $element = $(document.getElementById(url));
-              $element.find('.leancloud-visitors-count').text(counter.get('time'));
-            
             counter.save(null, {
               success: function(counter) {
+                
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(counter.get('time'));
                 
               },
               error: function(counter, error) {

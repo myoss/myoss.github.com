@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /404.html
 Disallow: /baidu_verify_H9mEO9wfhb.html
-Sitemap: /sitemap.xml
+Sitemap: https://blog.myoss.app/sitemap.xml
